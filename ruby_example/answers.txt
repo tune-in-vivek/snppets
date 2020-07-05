@@ -1,0 +1,17 @@
+
+
+Part 1:
+
+Method classify takes an array, sorts, removes any nil(through If there were nil then it would have failed at sort stage since sort function would not know how to compare string with nil), then it calls inject and passes empty hash to build hash with each key being type of operating systems and values being distribution of OS. In the do block, It compares passed string with type of OS using different comparisons techniques, and builds an array if it does not exists else add the passed string to the existing OS type array. The function returns a hash with key being OS type and values being array of distributions of OS.
+
+
+Part 2:
+
+instruction for running the program.
+
+Required gems: json 
+
+1. Download scan-times.json.
+2. Place the part2.rb in same folder as scan-times.json.
+3. Run program using following statement:
+	ruby part2.rb
